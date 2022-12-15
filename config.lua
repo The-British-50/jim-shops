@@ -52,14 +52,13 @@ Config = {
 			{ name = "whiskey", price = 10, amount = 50, },
 			{ name = "vodka", price = 70000, amount = 50, },
 		},
-		["hardware"] = {
+		["hardware"] = { 
 			{ name = "lockpick", price = 200, amount = 50, },
 			{ name = "weapon_wrench", price = 250, amount = 250, },
 			{ name = "weapon_hammer", price = 250, amount = 250, },
 			{ name = "weapon_bat", price = 500, amount = 50,  requiredGang = { "lostmc" } },  -- Gang only options in stores
-			{ name = "repairkit", price = 250, amount = 50,  requiredJob = { ["mechanic"] = 0, ["police"] = 0 } },
+			{ name = "repairkit", price = 750, amount = 5,  requiredJob = { ["mechanic"] = 0, ["police"] = 0 } },
 			{ name = "screwdriverset", price = 350, amount = 50, },
-			{ name = "phone", price = 850, amount = 50, },
 			{ name = "radio", price = 250, amount = 50, },
 			{ name = "binoculars", price = 50, amount = 50, },
 			{ name = "firework1", price = 50, amount = 50, },
@@ -68,7 +67,15 @@ Config = {
 			{ name = "firework4", price = 50, amount = 50, },
 			{ name = "fitbit", price = 400, amount = 150, },
 			{ name = "cleaningkit", price = 150, amount = 150, },
-			{ name = "advancedrepairkit", price = 500, amount = 50,  requiredJob = { ["mechanic"] = 0 } },
+			{ name = "plasticjerrycan", price = 150, amount = 50, },
+			{ name = "trowel", price = 150, amount = 50, },
+			{ name = "advancedrepairkit", price = 1000, amount = 5,  requiredJob = { ["mechanic"] = 0 } },
+			{ name = "gummybearmould", price = 150, amount = 10, },
+		},
+		["weedshop"] = {
+			{ name = "weapon_poolcue", price = 100, amount = 10, },
+			{ name = "weed_nutrition", price = 250, amount = 250, },
+			{ name = "empty_weed_bag", price = 2, amount = 1000, },
 		},
 		["gearshop"] = {
 			{ name = "diving_gear", price = 2500, amount = 10, },
@@ -91,10 +98,12 @@ Config = {
 		},
 		["electronics"] = {
 			{ name = "phone", price = 850, amount = 50 },
+			{ name = "powerbank", price = 50, amount = 50, },
 			{ name = "radio", price = 250, amount = 50, },
 			{ name = "screwdriverset", price = 350, amount = 50, },
 			{ name = "binoculars", price = 50, amount = 50, },
 			{ name = "fitbit", price = 400, amount = 150, },
+
 		},
 		["vending"] = {
 			{ name = "water_bottle", price = 100, amount = 25, },
