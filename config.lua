@@ -74,7 +74,7 @@ Config = {
 		},
 		["weedshop"] = {
 			{ name = "weapon_poolcue", price = 100, amount = 10, },
-			{ name = "weed_nutrition", price = 250, amount = 250, },
+			{ name = "weed_nutrition", price = 100, amount = 250, },
 			{ name = "empty_weed_bag", price = 2, amount = 1000, },
 		},
 		["gearshop"] = {
