@@ -6,7 +6,7 @@ print("^2Jim^7-^2Shops v^41^7.^47 ^7- ^2Shop Script by ^1Jimathy^7")
 
 Config = {
 	Debug = false, -- Enable to add debug boxes and message.
-	img = "qb-inventory/html/images/", -- Set this to your inventory
+	img = "lj-inventory/html/images/", -- Set this to your inventory
 	JimMenu = true, -- Enable this if you are using an updated qb-menu resource with icon support
 	ApGov = false, -- Add support for AP-Goverment Tax 
 	Peds = true, -- Set to true if you want Shops to have Peds
@@ -33,27 +33,27 @@ Config = {
 	},
 	Products = {
 		["normal"] = {
-			{ name = "tosti", price = 2, amount = 50, },
-			{ name = "water_bottle", price = 2, amount = 50, },
-			{ name = "kurkakola", price = 2, amount = 50, },
-			{ name = "twerks_candy", price = 2, amount = 50, },
-			{ name = "snikkel_candy", price = 2, amount = 50, },
-			{ name = "sandwich", price = 2, amount = 50, },
-			{ name = "beer", price = 7, amount = 50, },
-			{ name = "whiskey", price = 10, amount = 50, },
-			{ name = "vodka", price = 70000, amount = 50, },
-			{ name = "bandage", price = 100, amount = 50, },
-			{ name = "lighter", price = 2, amount = 50, },
+			{ name = "tosti", price = 2, amount = 10, },
+			{ name = "water_bottle", price = 2, amount = 10, },
+			{ name = "kurkakola", price = 2, amount = 10, },
+			{ name = "twerks_candy", price = 2, amount = 10, },
+			{ name = "snikkel_candy", price = 2, amount = 10, },
+			{ name = "sandwich", price = 2, amount = 10, },
+			{ name = "beer", price = 7, amount = 10, },
+			{ name = "whiskey", price = 10, amount = 10, },
+			{ name = "vodka", price = 70000, amount = 10, },
+			{ name = "bandage", price = 100, amount = 10, },
+			{ name = "lighter", price = 2, amount = 10, },
 			{ name = "rolling_paper", price = 2, amount = 5000,  },
 		},
 		["bar"] = {
-			{ name = "water_bottle", price = 2, amount = 50, },
-			{ name = "beer", price = 7, amount = 50, },
-			{ name = "whiskey", price = 10, amount = 50, },
-			{ name = "vodka", price = 70000, amount = 50, },
+			{ name = "water_bottle", price = 2, amount = 10, },
+			{ name = "beer", price = 7, amount = 10, },
+			{ name = "whiskey", price = 10, amount = 10, },
+			{ name = "vodka", price = 70000, amount = 10, },
 		},
 		["hardware"] = { 
-			{ name = "lockpick", price = 200, amount = 50, },
+			{ name = "lockpick", price = 200, amount = 10, },
 			{ name = "weapon_wrench", price = 250, amount = 250, },
 			{ name = "weapon_hammer", price = 250, amount = 250, },
 			{ name = "weapon_bat", price = 500, amount = 50,  requiredGang = { "lostmc" } },  -- Gang only options in stores
@@ -74,7 +74,7 @@ Config = {
 		},
 		["weedshop"] = {
 			{ name = "weapon_poolcue", price = 100, amount = 10, },
-			{ name = "weed_nutrition", price = 250, amount = 250, },
+			{ name = "weed_nutrition", price = 100, amount = 250, },
 			{ name = "empty_weed_bag", price = 2, amount = 1000, },
 		},
 		["gearshop"] = {
