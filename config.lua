@@ -218,7 +218,7 @@ Config.Locations = {
 		},
 		["coords"] = {
 			vector4(46.52, -1749.55, 29.64, 50.82),
-			vector3(2746.4, 3470.14, 55.67),
+			vector4(2746.4, 3470.14, 55.67, 244.51),
 			vector4(-421.65, 6135.97, 31.88, 232.98),
 		},
         ["products"] = Config.Products["hardware"],
