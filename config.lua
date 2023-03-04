@@ -11,8 +11,8 @@ Config = {
 	ApGov = false, -- Add support for AP-Goverment Tax 
 	Peds = true, -- Set to true if you want Shops to have Peds
 	Limit = true, -- Enable this to add Stash features, This adds limits to items and gets refilled at each restart
-	MaxSlots = 41, -- Set this to your player inventory slot count, this is default "41"
-	BlackMarket = false, -- enable to add blackmarket locations (defined at the bottom of this file)
+	MaxSlots = 40, -- Set this to your player inventory slot count, this is default "41"
+	BlackMarket = true, -- enable to add blackmarket locations (defined at the bottom of this file)
 	Measurement = "kg", -- Custom Weight measurement
 	Gabz247 = true,  -- Enable if using gabz 247 stores
 	GabzAmmu = true, -- Enable if using gabz Ammunation stores
@@ -88,6 +88,7 @@ Config = {
 		},
 		["weapons"] = {
 			{ name = "weapon_bat", price = 250, amount = 250, },
+			{ name = "weapon_pistol", price = 5000, amount = 5,},
 		},
 		["coffeeplace"] = {
 			{ name = "coffee", price = 5, amount = 500 },
