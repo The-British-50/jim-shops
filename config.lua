@@ -88,7 +88,8 @@ Config = {
 		},
 		["weapons"] = {
 			{ name = "weapon_bat", price = 250, amount = 250, },
-			{ name = "weapon_pistol", price = 5000, amount = 5,},
+			{ name = "weapon_pistol", price = 5000, amount = 5, },
+			{ name = "pistol_ammo", price = 500, amount = 10, },
 		},
 		["coffeeplace"] = {
 			{ name = "coffee", price = 5, amount = 500 },
