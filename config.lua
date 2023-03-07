@@ -105,6 +105,7 @@ Config = {
 			{ name = "screwdriverset", price = 350, amount = 50, },
 			{ name = "binoculars", price = 50, amount = 50, },
 			{ name = "fitbit", price = 400, amount = 150, },
+			{ name = "pokemonalbum", price = 250, amount = 20, },
 
 		},
 		["vending"] = {
@@ -118,7 +119,7 @@ Config = {
 			{ name = "snikkel_candy", price = 100, amount = 25, },
 		},
 		["blackmarket"] = {
-			{ name = "radioscanner", price = 850, amount = 5 },
+			{ name = "radioscanner", price = 1850, amount = 5 },
 		},
 	},
 }
