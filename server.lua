@@ -58,7 +58,7 @@ RegisterServerEvent('jim-shops:GetItem', function(amount, billtype, item, shopta
     local Player = QBCore.Functions.GetPlayer(src)
 	--Inventory space checks
 	local totalWeight = GetTotalWeight(Player.PlayerData.items)
-    local maxWeight = 120000 -- Fix until I work out how to get the player weight again
+    local maxWeight = 175000 -- Fix until I work out how to get the player weight again
 	local slots = 0
 	for _ in pairs(Player.PlayerData.items) do slots = slots +1 end
 	slots = Config.MaxSlots - slots
@@ -77,13 +77,25 @@ RegisterServerEvent('jim-shops:GetItem', function(amount, billtype, item, shopta
 
 		-- If its a weapon or a unique item, do this:
 		if QBCore.Shared.Items[item].type == "weapon" or QBCore.Shared.Items[item].unique then
-			if QBCore.Shared.Items[item].type == "weapon" then info = nil end
+			local info = {}
+			if QBCore.Shared.Items[item].type == "weapon" then info.serie = tostring(QBCore.Shared.RandomInt(2) .. QBCore.Shared.RandomStr(3) .. QBCore.Shared.RandomInt(1) .. QBCore.Shared.RandomStr(2) .. QBCore.Shared.RandomInt(3) .. QBCore.Shared.RandomStr(4)) end
+
 			for i = 1, amount do -- Make a loop to put items into different slots rather than full amount in 1 slot
+				local serial = info.serie
+				local imageurl = nil
+				local notes = os.date("%Y/%m/%d %X").." "..'Inital Purchase from Amunation'
+				local owner = Player.PlayerData.charinfo.firstname.." "..Player.PlayerData.charinfo.lastname
+				local weapClass = "Class 1"
+				local weapModel = QBCore.Shared.Items[item].label
 				if Player.Functions.AddItem(item, 1, nil, info) then
 					if tonumber(i) == tonumber(amount) then -- when its on its last loop do this
 						Player.Functions.RemoveMoney(tostring(billtype), (tonumber(price) * tonumber(amount)), 'ticket-payment')
 						TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items[item], "add", amount)
 						TriggerClientEvent("jim-shops:SellAnim", src, {item = item, shoptable = shoptable})
+					end
+					if QBCore.Shared.Items[item].type == "weapon" then
+						exports['ps-mdt']:CreateWeaponInfo(serial, imageurl, notes, owner, weapClass, weapModel)
+						TriggerClientEvent('QBCore:Notify', src, "Weapon has been Registered!", "success")
 					end
 				else
 					TriggerClientEvent('QBCore:Notify', src, "Can't give item!", "error") break -- stop the item giving loop
