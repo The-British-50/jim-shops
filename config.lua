@@ -57,7 +57,7 @@ Config = {
 			{ name = "weapon_wrench", price = 250, amount = 250, },
 			{ name = "weapon_hammer", price = 250, amount = 250, },
 			{ name = "weapon_bat", price = 500, amount = 50,  requiredGang = { "lostmc" } },  -- Gang only options in stores
-			{ name = "repairkit", price = 750, amount = 5,  requiredJob = { ["mechanic"] = 0, ["police"] = 0 } },
+			{ name = "repairkit", price = 750, amount = 5,  requiredJob = { ["mechanicjonno"] = 0, ["police"] = 0, ["tuner"] = 0, ["b50visuals"] = 0, ["yiannimize"] = 0, ["mechanicmarc"] = 0 } },
 			{ name = "screwdriverset", price = 350, amount = 50, },
 			{ name = "radio", price = 250, amount = 50, },
 			{ name = "binoculars", price = 50, amount = 50, },
