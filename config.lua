@@ -95,9 +95,9 @@ Config = {
 			{ name = "coffee", price = 5, amount = 500 },
 			{ name = "lighter", price = 2, amount = 50 },
 		},
-		["casino"] = {
+		--[[["casino"] = {
 			{ name = 'casinochips', price = 1, amount = 999999 },
-		},
+		},]]--
 		["electronics"] = {
 			{ name = "phone", price = 850, amount = 50 },
 			{ name = "powerbank", price = 50, amount = 50, },
