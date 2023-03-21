@@ -260,7 +260,7 @@ Config.Locations = {
 		["blipcolour"] = 1,
     },
     -- Casino Locations
-	["casino"] = {
+	--[[["casino"] = {
 		["label"] = "Diamond Casino",
 		["targetLabel"] = "Buy Chips",
 		["type"] = "items",
@@ -289,7 +289,7 @@ Config.Locations = {
 		["products"] = Config.Products["bar"],
 		["blipsprite"] = 52,
 		["blipcolour"] = 0,
-	},
+	},]]--
 
     -- Weedshop Locations
     ["weedshop"] = {
