@@ -71,7 +71,7 @@ Config = {
 			{ name = "trowel", price = 150, amount = 15, },
 			{ name = "advancedrepairkit", price = 1000, amount = 5,  requiredJob = { ["mechanic"] = 0 } },
 			{ name = "gummybearmould", price = 150, amount = 10, },
-			{ name = "microfibre", price = 250, amount = 10, },
+			{ name = "microfibercloth", price = 250, amount = 10, },
 			{ name = "blox", price = 150, amount = 10},
 			{ name = "easterbasket", price = 1, amount = 50},
 		},
