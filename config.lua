@@ -6,7 +6,7 @@ print("^2Jim^7-^2Shops v^41^7.^47 ^7- ^2Shop Script by ^1Jimathy^7")
 
 Config = {
 	Debug = false, -- Enable to add debug boxes and message.
-	img = "lj-inventory/html/images/", -- Set this to your inventory
+	img = "qb-inventory/html/images/", -- Set this to your inventory
 	JimMenu = true, -- Enable this if you are using an updated qb-menu resource with icon support
 	ApGov = true, -- Add support for AP-Goverment Tax 
 	Peds = true, -- Set to true if you want Shops to have Peds
@@ -71,8 +71,9 @@ Config = {
 			{ name = "trowel", price = 150, amount = 15, },
 			{ name = "advancedrepairkit", price = 1000, amount = 5,  requiredJob = { ["mechanic"] = 0 } },
 			{ name = "gummybearmould", price = 150, amount = 10, },
-			{ name = "microfibrecloth", price = 250, amount = 10, },
+			{ name = "microfibre", price = 250, amount = 10, },
 			{ name = "blox", price = 150, amount = 10},
+			{ name = "easterbasket", price = 1, amount = 50},
 		},
 		["weedshop"] = {
 			{ name = "weapon_poolcue", price = 100, amount = 10, },
