@@ -166,6 +166,9 @@ Config = {
             { name = "mwburger", 	price = 5, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
             { name = "mwcburger", 	price = 5, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
             { name = "mwbcburger", 	price = 5, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			-- Misc items
+			{ name = "murderbag", 	price = 5, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+
 		},
 	},
 }
