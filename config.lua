@@ -465,7 +465,7 @@ Config.Locations = {
 			`S_F_Y_SweatShop_01`,
 		},
 		["coords"] = {
-			vector4(999.59, -131.58, 74.06, 12.95),
+			vector4(846.03, -890.94, 25.25, 235.13),
 		},
 		["products"] = Config.Products["wholesale"], -- example using coffeplace info
 		["hideblip"] = false,
