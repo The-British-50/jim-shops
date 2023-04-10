@@ -82,11 +82,11 @@ Config = {
 		},
 		["gearshop"] = {
 			{ name = "diving_gear", price = 2500, amount = 10, },
-			{ name = "jerry_can", price = 200, amount = 50, },
+			{ name = "jerry_can", price = 200, amount = 1000, },
 		},
 		["leisureshop"] = {
 			{ name = "parachute", price = 2500, amount = 10, },
-			{ name = "binoculars", price = 50, amount = 50, },
+			{ name = "binoculars", price = 50, amount = 1000, },
 			{ name = "diving_gear", price = 2500, amount = 10, },
 		},
 		["weapons"] = {
@@ -123,6 +123,49 @@ Config = {
 		},
 		["blackmarket"] = {
 			{ name = "radioscanner", price = 1850, amount = 5 },
+		},
+		["wholesale"] = {
+			-- Burgershot
+			{ name = 'burgerpatty', price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = 'potato', 		price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = 'onion', 		price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = 'frozennugget', price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = 'milk', 		price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = 'icecream', 	price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = 'burgerbun', 	price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = 'cheddar', 	price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = 'lettuce', 	price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			-- Up n Atom
+			{ name = "tomato", 		price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = "hotdogbun", 	price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = "rawbacon", 	price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = "rawhotdog", 	price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = "chillimince",	price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = "butter",		price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "chickenbreast",price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			-- Hornys
+			{ name = "egg", 		price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = "breadslice", 	price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			{ name = "rawsausage", 	price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			-- Combined Up N Atom & Hornys
+			{ name = "cream", 		price = 0, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+			-- Billiards Bar
+			{ name = "cherry", 		price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "lime", 		price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "lemon", 		price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "pineapple", 	price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "coconut", 	price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "cranberry", 	price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "apple", 		price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "orange", 		price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "tomato", 		price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "steakpie", 	price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "chickenpie", 	price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "meatpie", 	price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "cheesepie", 	price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "mwburger", 	price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "mwcburger", 	price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
+            { name = "mwbcburger", 	price = 1, amount = 1000, requiredJob = { ["upnatom"] = 0, ["hornys"] = 0, ["burgershot"] = 0, ["billiards"] = 0 } },
 		},
 	},
 }
@@ -411,6 +454,21 @@ Config.Locations = {
 		},
 		["products"] = Config.Products["coffeeplace"], -- example using coffeplace info
 		["hideblip"] = true,
+	},
+	["wholesale"] = { -- Business Wholesaler for general items
+		["label"] = "General Wholesaler",
+		["type"] = "items",
+		["logo"] = "",
+		["model"] = {
+			`mp_m_shopkeep_01`,
+			`S_F_Y_Shop_LOW`,
+			`S_F_Y_SweatShop_01`,
+		},
+		["coords"] = {
+			vector4(999.59, -131.58, 74.06, 12.95),
+		},
+		["products"] = Config.Products["wholesale"], -- example using coffeplace info
+		["hideblip"] = false,
 	},
 }
 
